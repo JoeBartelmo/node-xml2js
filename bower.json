@@ -46,7 +46,8 @@
     "Stephen Cresswell (https://github.com/cressie176)",
     "Pascal Ehlert <pascal@hacksrus.net> (http://www.hacksrus.net/)",
     "Tom Spencer <fiznool@gmail.com> (http://fiznool.com/)",
-    "Tristian Flanagan <tflanagan@datacollaborative.com> (https://github.com/tflanagan)"
+    "Tristian Flanagan <tflanagan@datacollaborative.com> (https://github.com/tflanagan)",
+    "Joseph Bartelmo (https://github.com/joebartelmo)"
   ],
   "license": "MIT",
   "moduleType": [
@@ -57,16 +58,16 @@
     "url": "https://github.com/Leonidas-from-XIV/node-xml2js.git"
   },
   "dependencies": {
-    "sax": "isaacs/sax-js",
-    "xmlbuilder": "oozcitak/xmlbuilder-js"
+    "sax": ">=1.2.4",
+    "xmlbuilder": "~15.1.1"
   },
   "devDependencies": {
-    "coffee-script": ">=1.10.0",
-    "coveralls": "nickmerwin/node-coveralls",
-    "diff": "kpdecker/jsdiff",
-    "docco": "jashkenas/docco",
-    "nyc": "bcoe/nyc",
-    "zap": "nornagon/node-zap"
+    "coffeescript": ">=2.6.1",
+    "coveralls": "^3.1.1",
+    "diff": ">=5.0.0",
+    "docco": ">=0.9.1",
+    "nyc": ">=15.1.0",
+    "zap": ">=2.0.2"
   },
   "ignore": [
     "**/.*",
